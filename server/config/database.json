@@ -1,6 +1,9 @@
 {
   "development": {
-    "use_env_variable": "DATABASE_URL",
+    "username": "postgres",
+    "password": "clint#123",
+    "database": "clint_outline",
+    "host": "clint-outline.ceqocl6iukzk.us-east-1.rds.amazonaws.com",
     "dialect": "postgres"
   },
   "test": {
@@ -8,7 +11,10 @@
     "dialect": "postgres"
   },
   "production": {
-    "use_env_variable": "DATABASE_URL",
+    "username": "postgres",
+    "password": "clint#123",
+    "database": "clint_outline",
+    "host": "clint-outline.ceqocl6iukzk.us-east-1.rds.amazonaws.com",
     "dialect": "postgres"
   }
 }

@@ -43,7 +43,8 @@ function Home(props: Props) {
 }
 
 const Logo = styled.img`
-  height: 60px;
+  height: 30px;
+  margin-bottom: 50px;
   border-radius: 4px;
 `;
 
